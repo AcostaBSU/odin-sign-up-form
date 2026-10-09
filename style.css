@@ -96,3 +96,33 @@ body {
 .credit a {
   color: lightblue;
 }
+
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.appeal-container {
+  flex: 1;
+  padding: 2vh 2vw 2vh 2vw;
+  background-color: #EEEEEE;
+  color: #1B264F;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1vh;
+}
+
+.pitch {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.call-to-action {
+  font-size: 48px;
+}
+
+.sign-up-form-container {
+  flex: 2;
+}
