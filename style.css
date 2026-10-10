@@ -101,12 +101,12 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  background-color: #F5F5F5;
 }
 
 .appeal-container {
   flex: 1;
   padding: 2vh 2vw 2vh 2vw;
-  background-color: #EEEEEE;
   color: #1B264F;
   display: flex;
   flex-direction: column;
@@ -136,6 +136,7 @@ body {
 .form-entry-container {
   padding-left: 2vw;
   padding-bottom: 4vh;
+  background-color: #FFFFFF;
   box-shadow: 1px 4px 8px lightgrey;
   display: flex;
   flex-direction: column;
@@ -161,4 +162,31 @@ fieldset {
 input {
   border-width: 1px;
   border-radius: 4px;
+}
+
+.end-of-form-container {
+  padding-top: 4vh;
+  padding-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.submit-form-button-container > button {
+  color: white;
+  background-color: #1B264F;
+  font-size: 24px;
+  padding: 1vh 4vw 1vh 4vw;
+  border-radius: 12px;
+  box-shadow: 1px 4px 8px grey;
+}
+
+.existing-account {
+  font-size: 20px;
+  color: #555555;
+}
+
+.existing-account a {
+  color: #1B264F;
+  text-decoration: none;
 }
