@@ -164,6 +164,18 @@ input {
   border-radius: 4px;
 }
 
+input:focus {
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+  box-shadow: 1px 2px 4px lightgrey;
+  outline: none;
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
 .end-of-form-container {
   padding-top: 4vh;
   padding-left: 2vw;
