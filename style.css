@@ -119,10 +119,46 @@ body {
   font-weight: 700;
 }
 
-.call-to-action {
+.hook {
   font-size: 48px;
 }
 
 .sign-up-form-container {
   flex: 2;
+}
+
+.call-to-action {
+  font-size: 24px;
+  padding: 1vh 0vw 1vh 0vw;
+  color: #1B264F;
+}
+
+.form-entry-container {
+  padding-left: 2vw;
+  padding-bottom: 4vh;
+  box-shadow: 1px 4px 8px lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  gap: 5vw;
+  border-width: 0px;
+  padding-left: 0px;
+}
+
+.user-entry {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-entry {
+  font-size: 12px;
+  color: #111111;
+}
+
+input {
+  border-width: 1px;
+  border-radius: 4px;
 }
